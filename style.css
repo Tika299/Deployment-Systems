@@ -1,0 +1,95 @@
+/* Đặt lại các kiểu mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Căn giữa container đăng nhập */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Thiết kế cho khung đăng nhập */
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Nhóm input */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Nhãn */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Ô nhập liệu */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hiệu ứng khi focus vào ô nhập liệu */
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Nút đăng nhập */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hiệu ứng khi hover vào nút */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Liên kết đăng ký */
+.register-link {
+    margin-top: 15px;
+    color: #555;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
